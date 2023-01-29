@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="bg">
+
+        <div class=" text-center text-white p-2 fs-3 hed">
+                   <a href="index0.html" class="btn text-white" style="float:left ;">Home</a>
+ 
+                   + 18 Nur Männer
+        </div>
+    <div class="container heder  text-center   p-3 " >
+       
+
+    </div>
+
+    <div class="text-center p-2 my-5">
+<button onclick="mye()" class="btt ">Wahrheit</button>
+</div>
+<div class="container heder2   text-center  p-3  " >
+       
+
+</div>
+<div class="text-center p-2 my-5">
+<button onclick="my2()" class="btt2" >Pflicht</button>
+</div>
+
+</div>
+
+
+
+
+<script>
+
+
+
+function mye(){
+    let salam= document.querySelector(".heder");
+let arr =["Was ist das Peinlichste, was dir je passiert ist?","Wie viele Jungen / Mädchen hast du schon geküsst?","In wen bist du verliebt?","Welches Tier passt am besten zu dir und warum?","Hast du schon mal etwas geklaut?","Wann hast du das letzte Mal gelogen?","Wann hast du das letzte Mal geweint?","Was ist deine größte Angst?","Was war der größte Fehler deines Lebens?","Was war dein schlimmstes Date?","Wohin würdest du dich jetzt am liebsten beamen?","Hast du schon einmal Drogen genommen? (außer Alkohol und Tabak)","Wer aus der Runde sollte am dringendsten zum Friseur?","Was würdest du tun, wenn du für einen Monat ein Mann/eine Frau wärst?","Was wissen deine Eltern nicht über dich?","Warst du schon einmal nackt in der Öffentlichkeit?","Hast du schon einmal jemanden geghostet?","Was war das Ekligste, was du jemals getan/gegessen hast?","Welches wirklich kindische Verhalten hast du immer noch?","Hast du schon einmal jemanden für etwas beschuldigt, an dem du Schuld warst? Und was war es?","Wo war der seltsamste Ort, an dem du jemals auf die Toilette gegangen bist?","Was war das Verrückteste, das du in öffentlichen Verkehrsmitteln gemacht hast?","Wenn du einen Flaschengeist treffen würdest, was wären deine drei Wünsche?","Hast du jemals deinen besten Freund angelogen und gesagt, dass du dich krank fühlst, um nicht mit ihm abzuhängen?","Lassen Sie die Person zu Ihrer Rechten mit einem Stift auf Ihrem Gesicht zeichnen.","Senden Sie eine Sprachnachricht, in der Sie Billie Eilish singen.","Hast du schon mal jemanden in den sozialen Medien gestalkt?","Hast du jemals das Küssen in einem Spiegel geübt?","Was war der betrunkenste, den Sie je waren?","Nennen Sie zwei Ihrer Guilty Pleasures.","Nennen Sie eine Sache, die Sie an jeder Person in diesem Raum ändern würden.","Wenn Sie mit jemandem im Raum das Leben tauschen könnten, wer wäre das?","Wenn du einen Lehrer in der Schule oder eine Person bei der Arbeit heiraten könntest, wen würdest du wählen und warum?"," Wenn dir das Klopapier ausgehen würde, würdest du dich dazu entschließen, die leere Rolle zu verwenden?","Was würdest du tun, wenn dir in einer öffentlichen Toilette das Klopapier ausgeht, nachdem du ein großes Geschäft verrichtet hast?"]
+     var randomIndex = Math.floor(Math.random() * arr.length);
+    salam.innerHTML=arr[randomIndex]
+    console.log(randomIndex)
+}
+
+function my2(){
+    let salam= document.querySelector(".heder2");
+    let arr2 =["Ruf ein chinesisches Restaurant an und bestell eine Pizza.","Iss ein Stück Knoblauch.","Imitiere ein Tier.","Heule zehn Sekunden lang wie ein Wolf.","Tanze, ohne dass Musik dabei läuft.","Versuche deine Beine hinter den Kopf zu bekommen.","Tausche das T-Shirt mit der Person rechts/links von dir.","Aus dem Fenster schreien „Ich heiße (Name) und bin ein Esel“","Lass dich zehn Sekunden lang durchkitzeln.","Trinke ein großes Glas eines Getränks auf Ex.","Mache fünf Liegestütze.","Mache 50 Kniebeugen.","Mache einen Purzelbaum.","Benimm dich, wie ein Huhn.","Riech am Fuß deines linken Nachbars.","Sprich mit bayrischem/sächsischem/einem anderen Dialekt.","Beende jeden Satz mit „... nicht!“","Sprich, ohne deinen Mund zu schließen.","Mache die lustigste Grimasse, die dir einfällt.","Finde heraus, wessen Haare am besten riechen.","Iss etwas, ohne deine Hände zur Hilfe zu nehmen.","Schäle eine Banane nur mit deinen Zehen.","Verhalte dich bis zu deinem nächsten Zug wie ein Huhn.","Drehe dich fünfmal schnell herum und versuche dann, in einer geraden Linie zu gehen","Stellen Sie sich vor Ihr Haus und winken Sie jedem zu, der in der nächsten Minute vorbeikommt.","Nehmen Sie einen Schuss Gurkensaft.","Lassen Sie einen anderen Spieler einen Status in Ihrem sozialen Netzwerk posten.","Wenn du ein Gedicht über deinen Chef schreiben müsstest, wie würde es lauten?","Halte ein Restaurant 5 Minuten lang in der Leitung. Sprich mit britischem Akzent und storniere die Bestellung in letzter Sekunde."," Steh auf einem Bein und belle zwei Minuten lang, während du mit den Armen wie ein Huhn flatterst."]
+    var randomIndex2 = Math.floor(Math.random() * arr2.length);
+    salam.innerHTML=arr2[randomIndex2]
+    console.log(randomIndex2)
+}
+ 
+
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>  
+</body>
+</html>
